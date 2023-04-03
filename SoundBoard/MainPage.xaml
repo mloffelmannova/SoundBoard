@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SoundBoard.MainPage">
+
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+
+            <Button x:Name="btnSong1" Text= "hepší"
+                     Grid.Row="0" Grid.Column="0" Clicked="btnSong1_Clicked"/>
+
+            <Button x:Name="btnSong2" Text= "game over"
+                     Grid.Row="0" Grid.Column="1" Clicked="btnSong2_Clicked"/>
+
+            <Button x:Name="btnSong3" Text= "hihi"
+                     Grid.Row="0" Grid.Column="2" Clicked="btnSong3_Clicked"/>
+
+            <Button x:Name="btnSong4" Text= ":("
+                     Grid.Row="1" Grid.Column="0" Clicked="btnSong4_Clicked"/>
+
+            <Button x:Name="btnSong5" Text= "random69"
+                     Grid.Row="1" Grid.Column="1" Clicked="btnSong5_Clicked"/>
+
+            <Button x:Name="btnSong6" Text= "hmmm"
+                     Grid.Row="1" Grid.Column="2" Clicked="btnSong6_Clicked"/>
+
+            <Button x:Name="btnSong7" Text= ":O"
+                     Grid.Row="2" Grid.Column="0" Clicked="btnSong7_Clicked"/>
+
+            <Button x:Name="btnSong8" Text= "gg meow"
+                     Grid.Row="2" Grid.Column="1" Clicked="btnSong8_Clicked"/>
+            
+            <Button x:Name="btnSong9" Text= "lol"
+                     Grid.Row="2" Grid.Column="2" Clicked="btnSong9_Clicked"/>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
